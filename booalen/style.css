@@ -1,0 +1,143 @@
+body{
+    background-image: url('img/background.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 960px;
+    height: 680px;
+    margin: 22px auto;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px;    
+}
+
+#backfont{
+    width: 960px;
+    height: 680px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;  
+    position: absolute;
+    z-index: -1;
+    
+}
+
+#contenitore-logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 31%;
+} 
+
+
+
+
+
+#logo{
+    margin-top: 9%;
+    width: 200px;
+}
+
+ #contenitore-logo p {
+    color: #00EE00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+
+#contenitore-button{
+    width: 83%;
+    height: 5.7%;
+    margin: 0 auto;
+    background-color: #00DD00;
+    display: flex;
+    justify-content: center;
+}
+
+#contenitore-button button{
+    height: 50%;
+    margin: 10px 2px;
+    padding: 0 5px;
+}
+
+#contenitore-monopattini{
+    width: 83%;
+    height: 50%;
+    font-size: 20px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-3{
+    width: 100%;
+    height: 28%;
+    margin-top: 15px;
+    
+}
+
+.box-3 dt{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 2px; 
+}
+
+.box-3 dt:before{
+    content: "\25A0";
+    margin-right: 5px;
+}
+
+.box-3 dd{
+    color: white;
+    font-size: 13px;
+    width: 255px;
+    
+}
+
+.box-3 dd:before{
+    content: "\21A6";
+    margin-right: 5px;
+}
+
+#bar-1{
+    background-color: #f5b453;
+    width: 35%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+#bar-2{
+    background-color: #1ec31e;
+    width: 62%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+#bar-3{
+    background-color: #be4141;
+    width: 15%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+
+
+
